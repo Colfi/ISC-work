@@ -1,3 +1,3 @@
 git add . 
-git commit -m "Test scripts Python 28th Feb"+date
+git commit -m "Test scripts Python 28th v2 "
 git push 

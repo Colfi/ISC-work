@@ -226,4 +226,115 @@ Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  
 Total 4 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local objects.[K
 To https://Colfi@github.com/Colfi/ISC-work.git
-   e58163c..416a16a 
+   e58163c..416a16a  master -> master
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ pwd
+/home/user01/ISC-work
+]0;user01@teaching-980D:~/ISC-work[1]+  Done                    gedit python/basics.py
+[user01@teaching-980D ISC-work]$ ls 
+[0m[01;32mgit_add.csh[0m  [01;34mpython[0m  README.md  typescript  very_simple.py
+[m]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ m[Kls -a 
+[0m[01;34m.[0m  [01;34m..[0m  [01;34m.git[0m  [01;32mgit_add.csh[0m  [01;34mpython[0m  README.md  typescript  very_simple.py
+[m]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ vi .git.ig[K[K[Kignore
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".gitignore" [New File][>c[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;1H[1m-- INSERT --[m[24;14H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25l*[24;63H1,2[1;2H[?12l[?25h[?25l~[24;65H3[1;3H[?12l[?25h[24;1H[K[1;2H[?25l[24;63H1,2[11CAll[1;2H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l".gitignore" [New] 1L, 3C written
+[?1l>[?12l[?25h[?1049l]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ git add . 
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ git commit -m @[K""A"d"d" "g"i"t" "[1P"i"g"n"o"r"e".gitignore"
+[master 387cc84] Add .gitignore
+ Committer: user01 <user01@teaching-980D.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 4 files changed, 28 insertions(+), 3 deletions(-)
+ create mode 100644 .gitignore
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ gir [K[Kt push 
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 867 bytes, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://Colfi@github.com/Colfi/ISC-work.git
+   416a16a..387cc84  master -> master
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ git status
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   typescript
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ gedit control_flow3.[[Kpy &
+[1] 4536
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ python control_flow3.py 
+1 is True
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ python control_flow3.py 
+0 true
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ cd ..
+]0;user01@teaching-980D:~[user01@teaching-980D ~]$ ;s[K[Kls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mjasmin_scivm[0m  [01;34mncas-isc[0m  [01;34mPublic[0m     [01;34mVideos[0m
+[01;34mDocuments[0m  [01;34mISC-work[0m   [01;34mMusic[0m         [01;34mPictures[0m  [01;34mTemplates[0m
+[m]0;user01@teaching-980D:~[user01@teaching-980D ~]$ cd |ISC-work/
+bash: ISC-work/: is a directory
+]0;user01@teaching-980D:~[user01@teaching-980D ~]$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mjasmin_scivm[0m  [01;34mncas-isc[0m  [01;34mPublic[0m     [01;34mVideos[0m
+[01;34mDocuments[0m  [01;34mISC-work[0m   [01;34mMusic[0m         [01;34mPictures[0m  [01;34mTemplates[0m
+[m]0;user01@teaching-980D:~[user01@teaching-980D ~]$ cd ISC-work/
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ ls
+control_flow3.py   [0m[01;32mgit_add.csh[0m  README.md   very_simple.py
+control_flow3.py~  [01;34mpython[0m       typescript
+[m]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ vi typescript 
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"typescript" [noeol] 256L, 45056C[>c[1;1HScript started on Tue 28 Feb 2017 03:52:00 PM GMT
+[34m^[[m]0;user01@teaching-980D:~/ISC-work[34m^G^[[m[?1034h[user01@teaching-980D ISC-work]$  [3;1Hls -lrt#[34m^H^[[m[K[34m^M[m
+total 8[34m^M[m
+-rw-rw-r--. 1 user01 user01 16 Feb 28 14:06 README.md[34m^M[m
+-rw-rw-r--. 1 user01 user01 36 Feb 28 15:03 very_simple.py[34m^M[m
+-rw-rw-r--. 1 user01 user01  0 Feb 28 15:52 typescript[34m^M
+^[[m]0;user01@teaching-980D:~/ISC-work[34m^G[m[user01@teaching-980D ISC-work]$ vi typescc[9;1Hript #[34m^M
+^[[m[?1049h[34m^[[m[?1h[34m^[[m=[34m^[[m[2;1H▽[34m^[[m[6n[34m^[[m[2;1H  [34m^[[m[1;1H[34m^[[m[1;24r[34m^[[m[?12;25h[34m^[[m[?12l[34m^[[m[?25h[34m^^[11;1H[[m[27m[34m^[[m[m[34m^[[m[H[34m^[[m[2J[34m^[[m[?25l[34m^[[m[24;1H"typescript" 0L, 0C[34m^[[m[>c[34m^[[m[2;1H[34m^[[m[1m[34m^[[m[34m~     [12;1H [74C[34m^[[m[3;;[13;1H1H~[76C  [14;1H  [34m^[[m[4;1H~[69C  [15;1H [8C[34m^[[m[5;1H~[62C  [16;1H [15C[34m^[[m[6;1H~[55C  [17;1H [22C[34m^[[m[7;1H~[48C  [18;1H [29C[34m^[[m[8;1H~[41C  [19;1H [36C[34m^[[m[9;1H~[34C  [20;1H [43C[34m^[[m[10;1H~[26C  [21;1H [51C[34m^[[m[11;1H~[18C  [22;1H [59C[34m^[[m[12;1H~[10C  [23;1H [67C[34m^[[m[13;1H~[10;1H[1m[34m@                                                                               [11;1H@                                                                               [12;1H@                                                                               [13;1H@                                                                               [14;1H@                                                                               [15;1H@                                                                               [16;1H@                                                                               [17;1H@                                                                               [18;1H@                                                                               [19;1H@                                                                               [20;1H@                                                                               [21;1H@                                                                               [22;1H@                                                                               [23;1H@                                                                               [m[24;63H1,1[11CTop[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[4;1H[?12l[?25h[?25l[24;63H4[5;1H[?12l[?25h[?25l[24;63H5[6;1H[?12l[?25h[?25l[24;63H6[7;1H[?12l[?25h[?25l[24;63H7[8;1H[?12l[?25h[?25l[1;23r[1;1H[9M[1;24r[1;1H[34m^[[m[?1049h[34m^[[m[?1h[34m^[[m=[34m^[[m[2;1H▽[34m^[[m[6n[34m^[[m[2;1H  [34m^[[m[1;1H[34m^[[m[1;24r[34m^[[m[?12;25h[34m^[[m[?12l[34m^[[m[?25h[34m^^[2;1H[[m[27m[34m^[[m[m[34m^[[m[H[34m^[[m[2J[34m^[[m[?25l[34m^[[m[24;1H"typescript" 0L, 0C[34m^[[m[>c[34m^[[m[2;1H[34m^[[m[1m[34m^[[m[34m~     [3;1H                                                                           [34m^[[m[3;;[4;1H1H~                                                                              [5;1H  [34m^[[m[4;1H~                                                                       [6;1H         [34m^[[m[5;1H~                                                                [7;1H                [34m^[[m[6;1H~                                                         [8;1H                       [34m^[[m[7;1H~                                                  [9;1H                              [34m^[[m[8;1H~                                           [10;1H                                     [34m^[[m[9;1H~                                    [11;1H                                            [34m^[[m[10;1H~                            [12;1H                                                    [34m^[[m[11;1H~                    [13;1H                                                            [34m^[[m[12;1H~            [14;1H                                                                    [34m^[[m[13;1H~    [15;1H [75C[34m^[[m[11[16;1H4;1H~[74C  [17;1H    [34m^[[m[15;1H~[66C  [18;1H [11C[34m^[[m[16;1H~[58C  [19;1H [19C[34m^[[m[17;1H~[50C  [20;1H [27C[34m^[[m[18;1H~[42C  [21;1H [35C[34m^[[m[19;1H~[34C  [22;1H [43C[34m^[[m[20;1H~[26C  [23;1H [51C[34m^[[m[21;1H~[24;1H[K[24;63H8,1[12C2%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HPython 2.6.6 (r266:84292, Aug 18 2016, 15:13:37) [34m^M[m
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-17)] on linux2[34m^M[m
+Type "help", "copyright", "credits" or "license" for more information.[34m^M
+^[[m[?1034h>>> 1+2 [34m^M[m
+3[34m^M[m
+>>> [34m^M
+^[[m]0;user01@teaching-980D:~/ISC-work[34m^G[m[user01@teaching-980D ISC-work]$ ls -lrt[34m^M[m[8;1Htotal 8[34m^M[m
+-rw-rw-r--. 1 user01 user01 16 Feb 28 14:06 README.md[34m^M[m
+-rw-rw-r--. 1 user01 user01 36 Feb 28 15:03 very_simple.py[34m^M[m
+-rw-rw-r--. 1 user01 user01  0 Feb 28 15:52 typescript[34m^M
+^[[m]0;user01@teaching-980D:~/ISC-work[34m^G[m[user01@teaching-980D ISC-work]$ vi typescc[13;1Hript [34m^M
+^[[m[?1049h[34m^[[m[?1h[34m^[[m=[34m^[[m[2;1H▽[34m^[[m[6n[34m^[[m[2;1H  [34m^[[m[1;1H[34m^[[m[1;24r[34m^[[m[?12;25h[34m^[[m[?12l[34m^[[m[?25h[34m^^[15;1H[[m[27m[34m^[[m[m[34m^[[m[H[34m^[[m[2J[34m^[[m[?25l[34m^[[m[24;1H"typescript" 0L, 0C[34m^[[m[>c[34m^[[m[2;1H[34m^[[m[1m[34m^[[m[34m~     [16;1H [74C[34m^[[m[3;;[17;1H1H~[76C  [18;1H  [34m^[[m[4;1H~[69C  [19;1H [8C[34m^[[m[5;1H~[62C  [20;1H [15C[34m^[[m[6;1H~[55C  [21;1H [22C[34m^[[m[7;1H~[48C  [22;1H [29C[34m^[[m[8;1H~[41C  [23;1H [36C[34m^[[m[9;1H~[14;1H[1m[34m@                                                                               [15;1H@                                                                               [16;1H@                                                                               [17;1H@                                                                               [18;1H@                                                                               [19;1H@                                                                               [20;1H@                                                                               [21;1H@                                                                               [22;1H@                                                                               [23;1H@                                                                               [m[24;63H9,1[12C3%[1;1H[?12l[?25h[?25l
+[46m[[37C][m[24;63H10,1[2;1H[?12l[?25h[?25l[[37C][24;64H1[3;1H[?12l[?25h[?25l[24;64H2[4;1H[?12l[?25h[?25l[24;64H3[5;1H[?12l[?25h[?25l[24;64H4[6;1H[?12l[?25h[?25l[24;64H5[7;1H[?12l[?25h[?25l[24;64H6[8;1H[?12l[?25h[?25l[24;64H7[9;1H[?12l[?25h[?25l[24;64H8[10;1H[?12l[?25h[?25l[24;64H7[9;1H[?12l[?25h[?25l[24;64H6[8;1H[?12l[?25h[?25l[24;64H5[7;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ ls -lrt
+total 80
+-rw-rw-r--. 1 user01 user01    16 Feb 28 14:06 README.md
+-rw-rw-r--. 1 user01 user01    36 Feb 28 15:03 very_simple.py
+-rwxr-xr-x. 1 user01 user01    66 Feb 28 16:23 [0m[01;32mgit_add.csh[0m
+drwxrwxr-x. 2 user01 user01  4096 Feb 28 16:33 [01;34mpython[0m
+-rw-rw-r--. 1 user01 user01    33 Feb 28 16:36 control_flow3.py~
+-rw-rw-r--. 1 user01 user01    83 Feb 28 16:39 control_flow3.py
+-rw-rw-r--. 1 user01 user01 53248 Feb 28 16:42 typescript
+[m]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ cd pu[Kython/
+]0;user01@teaching-980D:~/ISC-work/python[user01@teaching-980D python]$ ls -lrt
+total 8
+-rw-rw-r--. 1 user01 user01 200 Feb 28 16:32 basics.py~
+-rw-rw-r--. 1 user01 user01 202 Feb 28 16:33 basics.py
+]0;user01@teaching-980D:~/ISC-work/python[user01@teaching-980D python]$ ls -lrtcd python/[3Pls -lrtvi typescript ls[Kcd ISC-work/ls[Kcd |ISC-work/ls[Kcd ..python control_flow3.py 
+python: can't open file 'control_flow3.py': [Errno 2] No such file or directory
+]0;user01@teaching-980D:~/ISC-work/python[user01@teaching-980D python]$ ls -lrt
+total 8
+-rw-rw-r--. 1 user01 user01 200 Feb 28 16:32 basics.py~
+-rw-rw-r--. 1 user01 user01 202 Feb 28 16:33 basics.py
+]0;user01@teaching-980D:~/ISC-work/python[user01@teaching-980D python]$ cd ..
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ ls
+control_flow3.py   [0m[01;32mgit_add.csh[0m  README.md   very_simple.py
+control_flow3.py~  [01;34mpython[0m       typescript
+[m]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ cd python/
+]0;user01@teaching-980D:~/ISC-work/python[user01@teaching-980D python]$ ls
+basics.py  basics.py~
+]0;user01@teaching-980D:~/ISC-work/python[user01@teaching-980D python]$ ls

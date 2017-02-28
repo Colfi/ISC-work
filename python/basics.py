@@ -6,3 +6,5 @@ while count<3:
  item = mylist[count]
  print str(item) +" and the position is "+ str(mylist.index(item))
  count=count+1
+
+

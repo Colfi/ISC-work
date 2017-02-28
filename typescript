@@ -337,4 +337,70 @@ control_flow3.py~  [01;34mpython[0m       typescript
 [m]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ cd python/
 ]0;user01@teaching-980D:~/ISC-work/python[user01@teaching-980D python]$ ls
 basics.py  basics.py~
-]0;user01@teaching-980D:~/ISC-work/python[user01@teaching-980D python]$ ls
+]0;user01@teaching-980D:~/ISC-work/python[user01@teaching-980D python]$ ls -lrt
+total 8
+-rw-rw-r--. 1 user01 user01 200 Feb 28 16:32 basics.py~
+-rw-rw-r--. 1 user01 user01 202 Feb 28 16:33 basics.py
+]0;user01@teaching-980D:~/ISC-work/python[user01@teaching-980D python]$ ls -lrt
+total 8
+-rw-rw-r--. 1 user01 user01 200 Feb 28 16:32 basics.py~
+-rw-rw-r--. 1 user01 user01 202 Feb 28 16:33 basics.py
+]0;user01@teaching-980D:~/ISC-work/python[user01@teaching-980D python]$ cd[K[Kls -lrt
+total 8
+-rw-rw-r--. 1 user01 user01 200 Feb 28 16:32 basics.py~
+-rw-rw-r--. 1 user01 user01 202 Feb 28 16:33 basics.py
+]0;user01@teaching-980D:~/ISC-work/python[user01@teaching-980D python]$ cd ..#l[K[K
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ ls lr[K[K-lrt
+total 84
+-rw-rw-r--. 1 user01 user01    16 Feb 28 14:06 README.md
+-rw-rw-r--. 1 user01 user01    36 Feb 28 15:03 very_simple.py
+-rwxr-xr-x. 1 user01 user01    66 Feb 28 16:23 [0m[01;32mgit_add.csh[0m
+drwxrwxr-x. 2 user01 user01  4096 Feb 28 16:33 [01;34mpython[0m
+-rw-rw-r--. 1 user01 user01    83 Feb 28 16:39 control_flow3.py~
+-rw-rw-r--. 1 user01 user01 57344 Feb 28 16:45 typescript
+-rw-rw-r--. 1 user01 user01   116 Feb 28 16:45 control_flow3.py
+[m]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ pwd
+/home/user01/ISC-work
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ cd ..
+]0;user01@teaching-980D:~[user01@teaching-980D ~]$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mjasmin_scivm[0m  [01;34mncas-isc[0m  [01;34mPublic[0m     [01;34mVideos[0m
+[01;34mDocuments[0m  [01;34mISC-work[0m   [01;34mMusic[0m         [01;34mPictures[0m  [01;34mTemplates[0m
+[m]0;user01@teaching-980D:~[user01@teaching-980D ~]$ cd ISC-work/
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ ls -lrt
+total 84
+-rw-rw-r--. 1 user01 user01    16 Feb 28 14:06 README.md
+-rw-rw-r--. 1 user01 user01    36 Feb 28 15:03 very_simple.py
+-rwxr-xr-x. 1 user01 user01    66 Feb 28 16:23 [0m[01;32mgit_add.csh[0m
+drwxrwxr-x. 2 user01 user01  4096 Feb 28 16:33 [01;34mpython[0m
+-rw-rw-r--. 1 user01 user01    83 Feb 28 16:39 control_flow3.py~
+-rw-rw-r--. 1 user01 user01 57344 Feb 28 16:45 typescript
+-rw-rw-r--. 1 user01 user01   116 Feb 28 16:45 control_flow3.py
+[m]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ git add . 
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ git commit "-"m" "[C Sc[K[KAdded exercise nr. 3![K" 
+[master 8a74d4d]  Added exercise nr. 3
+ Committer: user01 <user01@teaching-980D.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 2 files changed, 121 insertions(+), 1 deletions(-)
+ create mode 100644 control_flow3.py
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ push [K[K[K[K[Kgit push 
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 2.45 KiB, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://Colfi@github.com/Colfi/ISC-work.git
+   387cc84..8a74d4d  master -> master
+]0;user01@teaching-980D:~/ISC-work[user01@teaching-980D ISC-work]$ ls -lrt
+total 84
+-rw-rw-r--. 1 user01 user01 

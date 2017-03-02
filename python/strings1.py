@@ -10,8 +10,5 @@ print s[0][0][0]
 
 split_s=s.split()
 for item in split:
- if word.find("i") > -1  
-  print "I found 'i' in '{}'".format(word)
-
-if "i" in word:
- print "I found 'i' in '{}' ".format.(word)
+ if item.find("i") > -1  
+  print "I found 'i' in '{}'".format(item)
